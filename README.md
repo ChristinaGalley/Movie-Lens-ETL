@@ -1,1 +1,2 @@
 # Movies-ETL
+The purpose of this analysis for Amazing Prime was to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. This way the dataset can be kept updated on a daily basis. This process involved refactoring code to create one function that takes in the three files (Wikipedia data, Kaggle metadata, and the MovieLens rating data) and performing the ETL process by adding the data to a PostgreSQL database.
